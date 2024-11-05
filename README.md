@@ -6,7 +6,7 @@ Electrical and Computer Engineering, University of Toronto
 Refer to the ECE1512H_ProjectA_JangwonSuh_v1.pdf file
 
 
-1. **Task 1-2-(a)**
+## 1. **Task 1-2-(a)**
 
 For MNIST dataset: edit ./DataDAM/task_1_2_a_MNIST.py file's
 ```bash
@@ -31,7 +31,7 @@ python task_1_2_a_MHIST.py
 ```
 
 
-2. **Task 1-2-(b)~(c)**
+## 2. **Task 1-2-(b)~(c)**
 
 For MNIST dataset: edit ./DataDAM/utils.py file's line 320 to
 ```bash
@@ -54,7 +54,7 @@ python main_DataDAM.py --dataset=MHIST --ipc=50 --eval_mode=SS --num_eval=200 --
 ```
 
 
-3. **Task 1-2-(d)**
+## 3. **Task 1-2-(d)**
 
 For MNIST dataset: edit ./DataDAM/utils.py file's line 320 to
 ```bash
@@ -77,7 +77,7 @@ python main_DataDAM.py --dataset=MHIST --ipc=50 --eval_mode=SS --num_eval=200 --
 ```
 
 
-4. **Task 1-3**
+## 4. **Task 1-3**
 
 For MNIST dataset: edit ./DataDAM/utils.py file's line 320 to
 ```bash
@@ -100,7 +100,7 @@ python main_DataDAM.py --dataset=MHIST --ipc=50 --eval_mode=M --num_eval=200 --b
 ```
 
 
-5. **Task 1-4**
+## 5. **Task 1-4**
 
 Put your generated synthetic MNIST dataset from task 1-2-(b)~(c) in ./dc_benchmark/distilled_results/DC/synthetic/IPC10 and rename it as res_DC_synthetic_ConvNet_10ipc.pt
 then
@@ -110,7 +110,7 @@ python evaluator.py
 ```
 
 
-6. **Task 2-2**
+## 6. **Task 2-2**
 
 For real image initialization:
 ```bash
@@ -129,7 +129,7 @@ python PAD_depth.py --cfg ../configs/MNIST/ConvIN/IPC10_noise.yaml
 ```
 
 
-7. **Optional**
+## 7. **Optional**
 
 For IPC = 1:
 ```bash
