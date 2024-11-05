@@ -28,6 +28,7 @@ cd DataDAM
 python task_1_2_a_MHIST.py
 ```
 
+
 2. **Task 1-2-(b)~(c)**
 For MNIST dataset: edit ./DataDAM/utils.py file's line 320 to
 ```bash
@@ -48,6 +49,7 @@ then
 cd DataDAM
 python main_DataDAM.py --dataset=MHIST --ipc=50 --eval_mode=SS --num_eval=200 --batch_real=128 --batch_train=128 --init=real --data_path=wherever_you_want --save_path=wherever_you_want
 ```
+
 
 3. **Task 1-2-(d)**
 For MNIST dataset: edit ./DataDAM/utils.py file's line 320 to
@@ -70,6 +72,7 @@ cd DataDAM
 python main_DataDAM.py --dataset=MHIST --ipc=50 --eval_mode=SS --num_eval=200 --batch_real=128 --batch_train=128 --init=noise --data_path=wherever_you_want --save_path=wherever_you_want
 ```
 
+
 4. **Task 1-3**
 For MNIST dataset: edit ./DataDAM/utils.py file's line 320 to
 ```bash
@@ -91,6 +94,7 @@ cd DataDAM
 python main_DataDAM.py --dataset=MHIST --ipc=50 --eval_mode=M --num_eval=200 --batch_real=128 --batch_train=128 --init=real --data_path=wherever_you_want --save_path=wherever_you_want
 ```
 
+
 5. **Task 1-4**
 Put your generated synthetic MNIST dataset from task 1-2-(b)~(c) in ./dc_benchmark/distilled_results/DC/synthetic/IPC10 and rename it as res_DC_synthetic_ConvNet_10ipc.pt
 then
@@ -98,6 +102,7 @@ then
 cd dc_benchmark/evaluator
 python evaluator.py
 ```
+
 
 6. **Task 2-2**
 For real image initialization:
@@ -115,6 +120,7 @@ python buffer_CL.py
 cd ../distill
 python PAD_depth.py --cfg ../configs/MNIST/ConvIN/IPC10_noise.yaml
 ```
+
 
 7. **Optional**
 For IPC = 1:
