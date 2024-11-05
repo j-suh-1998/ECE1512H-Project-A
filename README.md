@@ -150,4 +150,4 @@ python DATM_testla.py --cfg ../configs/MNIST/ConvIN/IPC1.yaml
 
 
 ## Acknowledgement
-Our code is built upon [DataDAM](https://github.com/DataDistillation/DataDAM.git), [DATM](https://github.com/NUS-HPC-AI-Lab/DATM.git), [dc_benchmark](https://github.com/justincui03/dc_benchmark.git), [PAD](https://github.com/NUS-HPC-AI-Lab/PAD.git)
+This code is built upon [DataDAM](https://github.com/DataDistillation/DataDAM.git), [DATM](https://github.com/NUS-HPC-AI-Lab/DATM.git), [dc_benchmark](https://github.com/justincui03/dc_benchmark.git), [PAD](https://github.com/NUS-HPC-AI-Lab/PAD.git)
