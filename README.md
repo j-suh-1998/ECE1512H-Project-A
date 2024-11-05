@@ -8,7 +8,9 @@ Refer to the ECE1512H_ProjectA_JangwonSuh_v1.pdf file
 
 ## 1. **Task 1-2-(a)**
 
-For MNIST dataset: edit ./DataDAM/task_1_2_a_MNIST.py file's
+For MNIST dataset:
+
+edit ./DataDAM/task_1_2_a_MNIST.py file's
 ```bash
 train_dataset = datasets.MNIST(root='./mnist_dataset', train=True, transform=transform, download=True)
 test_dataset = datasets.MNIST(root='./mnist_dataset', train=False, transform=transform, download=True)
@@ -19,7 +21,9 @@ cd DataDAM
 python task_1_2_a_MNIST.py
 ```
 
-For MHIST dataset: edit ./DataDAM/task_1_2_a_MHIST.py file's
+For MHIST dataset:
+
+edit ./DataDAM/task_1_2_a_MHIST.py file's
 ```bash
 root_dir = './mhist_dataset/'
 csv_file = './mhist_dataset/annotations.csv'
@@ -33,7 +37,9 @@ python task_1_2_a_MHIST.py
 
 ## 2. **Task 1-2-(b)~(c)**
 
-For MNIST dataset: edit ./DataDAM/utils.py file's line 320 to
+For MNIST dataset:
+
+edit ./DataDAM/utils.py file's line 320 to
 ```bash
 net_width, net_depth, net_act, net_norm, net_pooling = 128, 3, 'relu', 'instancenorm', 'avgpooling'
 ```
@@ -43,7 +49,9 @@ cd DataDAM
 python main_DataDAM.py --dataset=MNIST --ipc=10 --eval_mode=SS --num_eval=100 --batch_real=256 --batch_train=256 --init=real --data_path=wherever_you_want --save_path=wherever_you_want
 ```
 
-For MHIST dataset: edit ./DataDAM/utils.py file's line 320 to
+For MHIST dataset:
+
+edit ./DataDAM/utils.py file's line 320 to
 ```bash
 net_width, net_depth, net_act, net_norm, net_pooling = 32, 7, 'relu', 'instancenorm', 'avgpooling'
 ```
@@ -56,7 +64,9 @@ python main_DataDAM.py --dataset=MHIST --ipc=50 --eval_mode=SS --num_eval=200 --
 
 ## 3. **Task 1-2-(d)**
 
-For MNIST dataset: edit ./DataDAM/utils.py file's line 320 to
+For MNIST dataset:
+
+edit ./DataDAM/utils.py file's line 320 to
 ```bash
 net_width, net_depth, net_act, net_norm, net_pooling = 128, 3, 'relu', 'instancenorm', 'avgpooling'
 ```
@@ -66,7 +76,9 @@ cd DataDAM
 python main_DataDAM.py --dataset=MNIST --ipc=10 --eval_mode=SS --num_eval=100 --batch_real=256 --batch_train=256 --init=noise --data_path=wherever_you_want --save_path=wherever_you_want
 ```
 
-For MHIST dataset: edit ./DataDAM/utils.py file's line 320 to
+For MHIST dataset:
+
+edit ./DataDAM/utils.py file's line 320 to
 ```bash
 net_width, net_depth, net_act, net_norm, net_pooling = 32, 7, 'relu', 'instancenorm', 'avgpooling'
 ```
@@ -79,7 +91,9 @@ python main_DataDAM.py --dataset=MHIST --ipc=50 --eval_mode=SS --num_eval=200 --
 
 ## 4. **Task 1-3**
 
-For MNIST dataset: edit ./DataDAM/utils.py file's line 320 to
+For MNIST dataset:
+
+edit ./DataDAM/utils.py file's line 320 to
 ```bash
 net_width, net_depth, net_act, net_norm, net_pooling = 128, 3, 'relu', 'instancenorm', 'avgpooling'
 ```
@@ -89,7 +103,9 @@ cd DataDAM
 python main_DataDAM.py --dataset=MNIST --ipc=10 --eval_mode=M --num_eval=100 --batch_real=256 --batch_train=256 --init=real --data_path=wherever_you_want --save_path=wherever_you_want
 ```
 
-For MHIST dataset: edit ./DataDAM/utils.py file's line 320 to
+For MHIST dataset:
+
+edit ./DataDAM/utils.py file's line 320 to
 ```bash
 net_width, net_depth, net_act, net_norm, net_pooling = 32, 7, 'relu', 'instancenorm', 'avgpooling'
 ```
@@ -103,6 +119,8 @@ python main_DataDAM.py --dataset=MHIST --ipc=50 --eval_mode=M --num_eval=200 --b
 ## 5. **Task 1-4**
 
 Put your generated synthetic MNIST dataset from task 1-2-(b)~(c) in ./dc_benchmark/distilled_results/DC/synthetic/IPC10 and rename it as res_DC_synthetic_ConvNet_10ipc.pt
+
+
 then
 ```bash
 cd dc_benchmark/evaluator
