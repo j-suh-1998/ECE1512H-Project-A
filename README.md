@@ -162,7 +162,7 @@ For IPC = 10:
 cd DATM/buffer
 python buffer_FTD.py
 cd ../distill
-python DATM_testla.py --cfg ../configs/MNIST/ConvIN/IPC1.yaml
+python DATM_testla.py --cfg ../configs/MNIST/ConvIN/IPC10.yaml
 ```
 
 For IPC = 100:
@@ -170,7 +170,7 @@ For IPC = 100:
 cd DATM/buffer
 python buffer_FTD.py
 cd ../distill
-python DATM_testla.py --cfg ../configs/MNIST/ConvIN/IPC1.yaml
+python DATM_testla.py --cfg ../configs/MNIST/ConvIN/IPC100.yaml
 ```
 
 
